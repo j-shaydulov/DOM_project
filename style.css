@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 62px;
+}
+
+.adder{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+.btns{
+    width: 500px;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.decrementBtn{
+    background-color: red;
+}
+
+.incrementBtn{
+    background-color: rgb(37, 188, 37);
+}
+
+.increase_by_7{
+    background-color: aqua;
+}
+
+.decrease_by_5{
+    background-color: rgb(255, 149, 0);
+}
+
+.reset{
+    background-color: yellow;
+}
